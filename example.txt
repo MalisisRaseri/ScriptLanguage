@@ -1,0 +1,21 @@
+# Printing "Hello, world!!!" phrase
+print "Hello, world!!!"
+
+# Printing "21+121-42 = 100"
+set $n1 = 21
+set $n2 = 121
+set $n3 = 55
+set $sum = $n1 + $n2 + 42
+set $sum2 = 45 + $n2 - 15
+
+# Unknown variable
+# set $sum = $n31 + $n2 - 42
+
+print "$sum = ", $n1, " + ", $n2, " - 42 = ", $sum
+print "$sum2 = 45 + ", $n2, " - 15 = ", $sum2
+
+input "What is your age: ", $age
+
+print "Your age is ", $age, " years old"
+
+print "End"
